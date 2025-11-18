@@ -1,0 +1,58 @@
+{
+  "evidence": [
+    {
+      "id": "EVID-001",
+      "title": "IAM Snapshot - 2025-10-30",
+      "location": "s3://company-audit-evidence/iam-snapshots/iam-2025-10-30.json",
+      "notes": "Daily IAM snapshot exported via script; access restricted to auditors and security ops."
+    },
+    {
+      "id": "EVID-002",
+      "title": "Deployment Logs - Oct 2025",
+      "location": "s3://company-audit-evidence/deployments/oct-2025/",
+      "notes": "CI/CD provenances and pipeline logs."
+    },
+    {
+      "id": "EVID-003",
+      "title": "Uploaded evidence bundle (presigned S3 URL) - 2025-10-30",
+      "location": "https://neutralaiz-soc-compliance.s3.us-east-1.amazonaws.com/evidence_index.json?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLWVhc3QtMSJIMEYCIQC908vj9d0c3B8sBV%2BYtZmc39Lv1bJF6AOEN5njWf4YjwIhAONmgUa4sJEXCMbYjDmznqDJ2XIjdFEf0%2BRS5DxpsVwdKsIECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMMjM2NTU5Mzc5NzA4IgxbCFDIlKYbF%2FOzs1YqlgRbpgxRiW29q78n8YIPHuxvDORKlGsdQsxmPgc0blgpBUuTWMJKHXOhCjYiojOxW%2Bfahzu2U%2BjrMjk%2Bh0YAJnK7WImBYkcPBA%2Fznjt3UM%2BQ1H5phoVL2m10XWQF0KVXhL7kmaYnv7rJhYR2KkjO%2ByPYIAXwZy41uVqlu8BSHDSGinSTH1Pk4kLHgpdRHuQ5KyqW9QBE2QhARXSjhtyuBPArFuDllDQaDqzhX0FlNGd%2FKo6BEOJ%2BYmImlX2VZPSzoq5yM4wBKKgolIno3dpvKoCOr3So1TOnsHNVRN2cAkfpGguelJSJcofa1J6luugwTPgNkYseRdyXArL56qUpdtCdYKO0M0n5IKtYU7L%2FmFGPl3y5piHOn8t%2BFBY%2B5UF6BmG5WfVrJJ7hdRJ7kBCek6hO2lg2eB9MPTvnw4pfrPYmxiKnNt7VcRrg6uAju60kVnTsBhw8byTVNjkD5P2bmgbVu%2FaacJkXC%2F2MJAhBzH%2Bx20cycmeWb8W4PcLEPQB1DlVdOZ61awEuKgCHksdMUd99GkJQ9zWDgYKYapyxAXknZcG6ykzxm1QfQJsaOfG%2FJzmeTX9rhlAaJsuj1LLkaUFzsr2tICUhdw%2FJfYFiTj4OzAYhN8JOPLxFrF69bgVQQUPM1fXFH8NkVW8VngIc%2Fll0BL4S3xLaTO2Npn5CVFzON7%2F9zPcqyx54COxp9QU7bH4xWYHcHLkwubePyAY6wgKnuGIVYasq%2B4UTiY5wnCxO0ilnzSSNRqEEvCyB5GRzPIqA6CSyKfDWsOi4ep88kgsu%2BYltWdIP9bLWe%2BX1%2B87upWwC6kWj57Dlj%2F5lT4swYOEIWa1J3%2FxzaBVUoyKgY6vmRC%2FI0g8sy7h%2B7GJc2t88rr6H%2F6uHLuucZ79EGRN5o6fUhkX2onAN8b%2FRxfkRhSNTc0O65wi1Zl53f%2B%2Bh90ZcZ2c0D7cGvwfBby49KFXu5Cu8V8znVmrDUWC9XndjnLWp9snlTn%2Fv3fuCrRmbH0a7YRdip7N27mhIhfhpMZRV3F5YPA8T1jehNsCqfiqu8H6ZrYycG3CsHhPE%2Bw%2F9K5fTxjCJsejTLNxSr9gf3kEtHZQMsJSLkz1culVd%2BXAul7CvaSEAST600N%2FWx0397%2BWMaiit%2B1m3bFuSd6gjFCu3KEoK&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIATOFAJVT6P4SGZKKO%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251030T215753Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0776b833164d173dd773174c74b6c01b775b5f560d32085206280f4451356bbe",
+      "notes": "Presigned S3 URL provided by user (short-lived, expires in ~3600 seconds). Use only for immediate auditor access; add long-term gs:// or s3:// pointer for permanent evidence."
+    },
+    {
+      "id": "EVID-004",
+      "title": "GitHub PR export bundle - 2025-10-30",
+      "location": "https://neutralaiz-soc-compliance.s3.us-east-1.amazonaws.com/evidence/github/github_20251030T223935Z.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATOFAJVT6D4PYJBXM%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251030T223937Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=481d9f24ff887de40cafa5a9a2f9e8e986e81507f3c1862323d8ed257f365ad7",
+      "notes": "Presigned S3 URL for the zipped GitHub PR export (expires in 7 days)."
+    },
+    {
+      "id": "EVID-1761864288",
+      "title": "Evidence bundle - aws - 2025-10-30T22:44:48Z",
+      "location": "s3://neutralaiz-soc-compliance/evidence/aws/aws_20251030T224446Z.zip",
+      "notes": "Uploaded by upload_and_presign_s3.sh"
+    },
+    {
+      "id": "EVID-1761864290",
+      "title": "Evidence bundle - cloudbuild - 2025-10-30T22:44:50Z",
+      "location": "s3://neutralaiz-soc-compliance/evidence/cloudbuild/cloudbuild_20251030T224448Z.zip",
+      "notes": "Uploaded by upload_and_presign_s3.sh"
+    },
+    {
+      "id": "EVID-1761864292",
+      "title": "Evidence bundle - cloudrun - 2025-10-30T22:44:52Z",
+      "location": "s3://neutralaiz-soc-compliance/evidence/cloudrun/cloudrun_20251030T224450Z.zip",
+      "notes": "Uploaded by upload_and_presign_s3.sh"
+    },
+    {
+      "id": "EVID-1761864293",
+      "title": "Evidence bundle - gcp - 2025-10-30T22:44:53Z",
+      "location": "s3://neutralaiz-soc-compliance/evidence/gcp/gcp_20251030T224452Z.zip",
+      "notes": "Uploaded by upload_and_presign_s3.sh"
+    },
+    {
+      "id": "EVID-1761864295",
+      "title": "Evidence bundle - github - 2025-10-30T22:44:55Z",
+      "location": "s3://neutralaiz-soc-compliance/evidence/github/github_20251030T224453Z.zip",
+      "notes": "Uploaded by upload_and_presign_s3.sh"
+    }
+  ]
+}
